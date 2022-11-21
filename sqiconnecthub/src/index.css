@@ -1,0 +1,52 @@
+/* General Styles */
+html,
+body{
+  height: 100%;
+  font-size: 1rem;
+}
+
+.gradient {
+  background: #8012ed;
+  background: linear-gradient(90deg, #8012ed 0%, #2260f1 100%);
+}
+
+
+/* LANDING PAGE STYLES */
+
+/* NavBar */
+
+/* LandingPageHeader */
+.landing-page-header {
+  margin-top: 4rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.landing-page-header h1 {
+  font-size: 5rem;
+}
+
+.landing-page-header p {
+  padding-left: 2rem;
+  background-image: url(../src/assets/svg/check.svg);
+  background-repeat: no-repeat;
+  line-height: 1.5rem;
+}
+
+.getStarted:hover {
+  background-color: white;
+  border-style: none;
+  color: black;
+ 
+}
+
+/* Stack Component */
+.stack-icon {
+  height: 6rem;
+  width: 6rem
+  
+}
+.stack-icon:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  
+}
